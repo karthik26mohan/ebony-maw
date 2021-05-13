@@ -15,9 +15,53 @@
     display: inline-block;
     border-radius: 40px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 30%;
     // transform: translate(-50%, -50%);
+}
+
+.parent {
+    width: 250px;
+    height: 250px;
+    // background-color: #fff;
+    top: 42%;
+    left: 44%;
+    position: absolute;
+}
+
+.coin {
+    position: absolute;
+    // top: 0%; // Change this dynamically
+    // left: 33%; // Change this dynamically
+    color: rgba(242,215,50,1);
+    width: 52px; 
+    height: 52px;
+    margin: 5px;
+    top: 6px;
+    border-radius: 50px;
+    z-index: 500;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, .1);
+    background: linear-gradient(45deg,  rgba(242,215,12,1) 0%,rgba(255,255,255,1) 56%,rgba(252,235,0,1) 96%);
+}
+
+.top {
+    top: 0%;
+    left: 33%;
+}
+
+.bottom {
+    top: 66%;
+    left: 33%;
+}
+
+.left {
+    top: 33%;
+    left: 0%;
+}
+
+.right {
+    top: 33%;
+    left: 66%;
 }
 
 #red {
