@@ -44,12 +44,19 @@
     background: linear-gradient(45deg,  rgba(242,215,12,1) 0%,rgba(255,255,255,1) 56%,rgba(252,235,0,1) 96%);
 }
 
-.top {
+.score {
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 52%;
+}
+
+.up {
     top: 0%;
     left: 33%;
 }
 
-.bottom {
+.down {
     top: 66%;
     left: 33%;
 }
